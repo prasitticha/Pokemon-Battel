@@ -11,7 +11,7 @@ namespace Pokemon_Battel
     {
         public Pikachu()
         {
-            base.name = "P ikachu";
+            base.name = "Pikachu";
             base.height = 1.04;
             base.wirght = 13.2;
 

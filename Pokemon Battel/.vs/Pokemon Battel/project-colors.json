@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "365c9913-e0e2-42fc-9816-879d7990a51b": {
+      "ProjectGuid": "365c9913-e0e2-42fc-9816-879d7990a51b",
+      "DisplayName": "Pokemon Battel",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

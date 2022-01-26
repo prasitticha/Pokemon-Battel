@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Pokemon_Battel
 {
-    public class Pidgeot : Pokemon
+    public class Clefairy : Pokemon
     {
-        public Pidgeot()
+        public Clefairy()
         {
-            base.name = "Pidgeot";
-            base.height = 4.11;
-            base.wirght = 87.1;
+            base.name = "Clefairy";
+            base.height = 2.00;
+            base.wirght = 16.5;
 
             base.gender = Gender.male;
             base.category = Category.mouse;
@@ -21,7 +21,7 @@ namespace Pokemon_Battel
             base.type = Type.electric;
             base.weaknesses = Type.ground;
 
-            base.image = Resources._02;
+            base.image = Resources._03;
         }
     }
 }
