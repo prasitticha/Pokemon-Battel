@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Pokemon_Battel
 {
-    internal class Pikachu
+    internal class Pikachu : Pokemon
     {
+
     }
 }
