@@ -6,3 +6,13 @@ C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Poke
 C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.AssemblyInfoInputs.cache
 C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.AssemblyInfo.cs
 C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.csproj.CoreCompileInputs.cache
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\Pokemon Battel.exe
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\Pokemon Battel.deps.json
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\Pokemon Battel.runtimeconfig.json
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\Pokemon Battel.dll
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\ref\Pokemon Battel.dll
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\bin\Debug\net6.0-windows\Pokemon Battel.pdb
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.dll
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\ref\Pokemon Battel.dll
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.pdb
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.genruntimeconfig.cache

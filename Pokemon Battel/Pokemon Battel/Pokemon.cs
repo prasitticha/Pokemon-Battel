@@ -6,18 +6,27 @@ using System.Threading.Tasks;
 
 namespace Pokemon_Battel
 {
-    internal class Pokemon
+    public class Pokemon
     {
-        protected string Name;
+        protected string name;
         protected double height;
         protected double wirght;
 
         protected Gender gender;
         protected Category category;
         protected Abilities abilities;
-        protected Image image;
+        protected Bitmap image;
         protected Type type;
         protected Type weaknesses;
+
+        public string getName()
+        {
+            return this.name;
+        }
+        public Image getImage()
+        {
+            return this.image;
+        }
     }
     public enum Gender
         {
