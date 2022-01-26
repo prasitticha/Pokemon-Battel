@@ -8,6 +8,9 @@ namespace Pokemon_Battel
 {
     internal class Pikachu : Pokemon
     {
+        Pikachu()
+        {
 
+        }
     }
 }

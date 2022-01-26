@@ -6,5 +6,11 @@ namespace Pokemon_Battel
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Pikachu pikachu = new Pikachu();
+
+        }
     }
 }

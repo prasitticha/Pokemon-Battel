@@ -1,0 +1,8 @@
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.csproj.AssemblyReference.cache
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon_Battel.Form1.resources
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon_Battel.Properties.Resources.resources
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.csproj.GenerateResource.cache
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.AssemblyInfoInputs.cache
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.AssemblyInfo.cs
+C:\Users\Prasittichai Jansom\Documents\GitHub\Pokemon-Battel\Pokemon Battel\Pokemon Battel\obj\Debug\net6.0-windows\Pokemon Battel.csproj.CoreCompileInputs.cache

@@ -8,32 +8,33 @@ namespace Pokemon_Battel
 {
     internal class Pokemon
     {
-        double height;
-        double wirght;
+        protected string Name;
+        protected double height;
+        protected double wirght;
 
-        Gender gender;
-        Category category;
-        Abilities abilities;
-        Image image;
-        Type type;
-        Type weaknesses;
-
-        enum Gender
+        protected Gender gender;
+        protected Category category;
+        protected Abilities abilities;
+        protected Image image;
+        protected Type type;
+        protected Type weaknesses;
+    }
+    public enum Gender
         {
             male,
             female
         }
-        enum Category
+    public enum Category
         {
             mouse
         }
-        enum Abilities
+    public enum Abilities
         {
             static_
         }
-        enum Type
+    public enum Type
         {
             electric, ground
         }
-    }
+    
 }
