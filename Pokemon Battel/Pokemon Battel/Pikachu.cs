@@ -21,7 +21,7 @@ namespace Pokemon_Battel
             base.type = Type.electric;
             base.weaknesses = Type.ground;
 
-            base.image = Resources._01;
+            base.image = Resources._02;
         }
     }
 }
