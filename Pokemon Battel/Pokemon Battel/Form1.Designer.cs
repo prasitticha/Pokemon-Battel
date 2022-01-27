@@ -43,15 +43,17 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.buttonATK = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBoxHP = new System.Windows.Forms.TextBox();
-            this.textBoxATK = new System.Windows.Forms.TextBox();
-            this.textBoxDEF = new System.Windows.Forms.TextBox();
             this.textBoxSPEED = new System.Windows.Forms.TextBox();
+            this.textBoxDEF = new System.Windows.Forms.TextBox();
+            this.textBoxATK = new System.Windows.Forms.TextBox();
+            this.textBoxHP = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonATK = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBoxEnmyHP = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -226,41 +228,37 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // buttonATK
+            // textBoxSPEED
             // 
-            this.buttonATK.Location = new System.Drawing.Point(366, 87);
-            this.buttonATK.Name = "buttonATK";
-            this.buttonATK.Size = new System.Drawing.Size(75, 23);
-            this.buttonATK.TabIndex = 6;
-            this.buttonATK.Text = "Attack";
-            this.buttonATK.UseVisualStyleBackColor = true;
+            this.textBoxSPEED.Location = new System.Drawing.Point(70, 120);
+            this.textBoxSPEED.Name = "textBoxSPEED";
+            this.textBoxSPEED.ReadOnly = true;
+            this.textBoxSPEED.Size = new System.Drawing.Size(100, 23);
+            this.textBoxSPEED.TabIndex = 7;
             // 
-            // label1
+            // textBoxDEF
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "HP";
+            this.textBoxDEF.Location = new System.Drawing.Point(70, 91);
+            this.textBoxDEF.Name = "textBoxDEF";
+            this.textBoxDEF.ReadOnly = true;
+            this.textBoxDEF.Size = new System.Drawing.Size(100, 23);
+            this.textBoxDEF.TabIndex = 6;
             // 
-            // label2
+            // textBoxATK
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 70);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "ATK";
+            this.textBoxATK.Location = new System.Drawing.Point(70, 62);
+            this.textBoxATK.Name = "textBoxATK";
+            this.textBoxATK.ReadOnly = true;
+            this.textBoxATK.Size = new System.Drawing.Size(100, 23);
+            this.textBoxATK.TabIndex = 5;
             // 
-            // label3
+            // textBoxHP
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 99);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "DEF";
+            this.textBoxHP.Location = new System.Drawing.Point(70, 33);
+            this.textBoxHP.Name = "textBoxHP";
+            this.textBoxHP.ReadOnly = true;
+            this.textBoxHP.Size = new System.Drawing.Size(100, 23);
+            this.textBoxHP.TabIndex = 4;
             // 
             // label4
             // 
@@ -271,43 +269,67 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "SPEED";
             // 
-            // textBoxHP
+            // label3
             // 
-            this.textBoxHP.Location = new System.Drawing.Point(70, 33);
-            this.textBoxHP.Name = "textBoxHP";
-            this.textBoxHP.ReadOnly = true;
-            this.textBoxHP.Size = new System.Drawing.Size(100, 23);
-            this.textBoxHP.TabIndex = 4;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 99);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(27, 15);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "DEF";
             // 
-            // textBoxATK
+            // label2
             // 
-            this.textBoxATK.Location = new System.Drawing.Point(70, 62);
-            this.textBoxATK.Name = "textBoxATK";
-            this.textBoxATK.ReadOnly = true;
-            this.textBoxATK.Size = new System.Drawing.Size(100, 23);
-            this.textBoxATK.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "ATK";
             // 
-            // textBoxDEF
+            // label1
             // 
-            this.textBoxDEF.Location = new System.Drawing.Point(70, 91);
-            this.textBoxDEF.Name = "textBoxDEF";
-            this.textBoxDEF.ReadOnly = true;
-            this.textBoxDEF.Size = new System.Drawing.Size(100, 23);
-            this.textBoxDEF.TabIndex = 6;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "HP";
             // 
-            // textBoxSPEED
+            // buttonATK
             // 
-            this.textBoxSPEED.Location = new System.Drawing.Point(70, 120);
-            this.textBoxSPEED.Name = "textBoxSPEED";
-            this.textBoxSPEED.ReadOnly = true;
-            this.textBoxSPEED.Size = new System.Drawing.Size(100, 23);
-            this.textBoxSPEED.TabIndex = 7;
+            this.buttonATK.Location = new System.Drawing.Point(366, 87);
+            this.buttonATK.Name = "buttonATK";
+            this.buttonATK.Size = new System.Drawing.Size(75, 23);
+            this.buttonATK.TabIndex = 6;
+            this.buttonATK.Text = "Attack";
+            this.buttonATK.UseVisualStyleBackColor = true;
+            this.buttonATK.Click += new System.EventHandler(this.buttonATK_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(611, 137);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 15);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "HP";
+            // 
+            // textBoxEnmyHP
+            // 
+            this.textBoxEnmyHP.Location = new System.Drawing.Point(640, 134);
+            this.textBoxEnmyHP.Name = "textBoxEnmyHP";
+            this.textBoxEnmyHP.ReadOnly = true;
+            this.textBoxEnmyHP.Size = new System.Drawing.Size(100, 23);
+            this.textBoxEnmyHP.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 507);
+            this.Controls.Add(this.textBoxEnmyHP);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonATK);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox7);
@@ -364,5 +386,7 @@
         private Label label2;
         private Label label1;
         private Button buttonATK;
+        private Label label5;
+        private TextBox textBoxEnmyHP;
     }
 }

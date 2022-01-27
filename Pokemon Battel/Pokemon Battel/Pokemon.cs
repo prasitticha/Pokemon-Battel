@@ -32,11 +32,12 @@ namespace Pokemon_Battel
         {
             return this.image;
         }
-
+        0 
         public int getHP() { return hp; }
+        public void setHP(int newHP) { hp = newHP; }
         public int getATK() { return this.atk; }
         public int getDEF() { return this.def; }
-        public int getSPEED() { return speed; }
+        public int getSPEED() { return this.speed; }
     }
     public enum Gender
         {

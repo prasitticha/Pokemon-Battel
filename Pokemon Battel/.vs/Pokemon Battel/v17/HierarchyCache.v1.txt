@@ -1,0 +1,204 @@
+﻿++Solution 'Pokemon Battel' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Pokemon Battel.sln
+++Pokemon Battel
+i:{00000000-0000-0000-0000-000000000000}:Pokemon Battel
+++Dependencies
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:>140
+++Properties
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\properties\
+++Resources
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\
+++ClassDiagram1.cd
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\classdiagram1.cd
+++Clefairy.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\clefairy.cs
+++Form1.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\form1.cs
+++Machamp.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\machamp.cs
+++Pidgeot.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\pidgeot.cs
+++Pikachu.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\pikachu.cs
+++Pokemon.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\pokemon.cs
+++Poliwag.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\poliwag.cs
+++Program.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\program.cs
+++Psyduck.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\psyduck.cs
+++Voltorb.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\voltorb.cs
+++Analyzers
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:analyzers
+++Frameworks
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:frameworks
+++Resources.resx
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\properties\resources.resx
+++01.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\01.png
+++02.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\02.png
+++03.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\03.png
+++04.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\04.png
+++05.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\05.png
+++06.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\06.png
+++07.png
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\resources\07.png
+++Form1.Designer.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\form1.designer.cs
+++Form1.resx
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\form1.resx
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++System.Windows.Forms.Analyzers
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.0\analyzers\dotnet\system.windows.forms.analyzers.dll
+++System.Windows.Forms.Analyzers.CSharp
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\program files\dotnet\packs\microsoft.windowsdesktop.app.ref\6.0.0\analyzers\dotnet\cs\system.windows.forms.analyzers.csharp.dll
+++Microsoft.NETCore.App
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\microsoft.netcore.app
+++Microsoft.WindowsDesktop.App.WindowsForms
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\microsoft.windowsdesktop.app.windowsforms
+++Resources.Designer.cs
+i:{365c9913-e0e2-42fc-9816-879d7990a51b}:c:\users\prasittichai jansom\documents\github\pokemon-battel\pokemon battel\pokemon battel\properties\resources.designer.cs
+++bin
+++Debug
+++net6.0-windows
+++ref
+++Pokemon Battel.deps.json
+++Pokemon Battel.dll
+++Pokemon Battel.exe
+++Pokemon Battel.pdb
+++Pokemon Battel.runtimeconfig.json
+++obj
+++Pokemon Battel.csproj.nuget.dgspec.json
+++Pokemon Battel.csproj.nuget.g.props
+++Pokemon Battel.csproj.nuget.g.targets
+++project.assets.json
+++project.nuget.cache
+++TempPE
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+++apphost.exe
+++Pokemon Battel.AssemblyInfo.cs
+++Pokemon Battel.AssemblyInfoInputs.cache
+++Pokemon Battel.assets.cache
+++Pokemon Battel.csproj.AssemblyReference.cache
+++Pokemon Battel.csproj.CoreCompileInputs.cache
+++Pokemon Battel.csproj.FileListAbsolute.txt
+++Pokemon Battel.csproj.GenerateResource.cache
+++Pokemon Battel.designer.deps.json
+++Pokemon Battel.designer.runtimeconfig.json
+++Pokemon Battel.GeneratedMSBuildEditorConfig.editorconfig
+++Pokemon Battel.genruntimeconfig.cache
+++Pokemon Battel.GlobalUsings.g.cs
+++Pokemon_Battel.Form1.resources
+++Pokemon_Battel.Properties.Resources.resources
+++Properties.Resources.Designer.cs.dll
+++PublishProfiles
+++Imports
+++Sdk.props
+++Sdk.targets
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Windows.targets
+++Microsoft.NET.Sdk.WindowsDesktop.targets
+++Microsoft.NET.Compatibility.Common.targets
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.targets
+++Microsoft.WinFX.targets
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+++Pokemon Battel.csproj.user
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets

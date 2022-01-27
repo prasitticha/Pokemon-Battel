@@ -40,6 +40,8 @@ namespace Pokemon_Battel
             this.textBoxATK.Text = pokemondex[0].getATK().ToString();
             this.textBoxDEF.Text = pokemondex[0].getDEF().ToString();
             this.textBoxSPEED.Text = pokemondex[0].getSPEED().ToString();
+
+            this.textBoxEnmyHP.Text = enemydex[0].getHP().ToString();
         }
 
         private void button_switch1_Click(object sender, EventArgs e)
@@ -61,6 +63,15 @@ namespace Pokemon_Battel
             Image temp = this.pictureBox1.Image;
             this.pictureBox1.Image = this.pictureBox3.Image;
             this.pictureBox3.Image = temp;
+        }
+
+        private void buttonATK_Click(object sender, EventArgs e)
+        {
+            int damage = pokemondex[0].getATK();
+            int newHP = enemydex[0].getHP() - damage;
+            enemydex[0].setHP(newHP);
+
+            diaplayPokemon();
         }
     }
 }
