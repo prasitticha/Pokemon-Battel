@@ -15,11 +15,16 @@ namespace Pokemon_Battel
             base.height = 2.00;
             base.wirght = 27.3;
 
+            base.hp = 40;
+            base.atk = 50;
+            base.def = 40;
+            base.speed = 40;
+
             base.gender = Gender.male;
             base.category = Category.mouse;
-            base.abilities = Abilities.static_;
-            base.type = Type.electric;
-            base.weaknesses = Type.ground;
+            base.abilities = new Abilities[] { Abilities.damp, Abilities.water_absorb };
+            base.type = new Type[] { Type.water };
+            base.weaknesses = new Type[] { Type.grass, Type.electric };
 
             base.image = Resources._05;
         }

@@ -8,16 +8,21 @@ namespace Pokemon_Battel
 {
     public class Pokemon
     {
+        protected int hp;
+        protected int atk;
+        protected int def;
+        protected int speed;
+
         protected string name;
         protected double height;
         protected double wirght;
 
         protected Gender gender;
         protected Category category;
-        protected Abilities abilities;
+        protected Abilities[] abilities;
         protected Bitmap image;
-        protected Type type;
-        protected Type weaknesses;
+        protected Type[] type;
+        protected Type[] weaknesses;
 
         public string getName()
         {
@@ -27,6 +32,11 @@ namespace Pokemon_Battel
         {
             return this.image;
         }
+
+        public int getHP() { return hp; }
+        public int getATK() { return this.atk; }
+        public int getDEF() { return this.def; }
+        public int getSPEED() { return speed; }
     }
     public enum Gender
         {
@@ -35,15 +45,20 @@ namespace Pokemon_Battel
         }
     public enum Category
         {
-            mouse
+            mouse,
+            lizard,
+            seed,
+            superpower
         }
     public enum Abilities
         {
-            static_
-        }
+            static_, blaze, overgrow, guts, no_gurad, keen_eye, tangled_feet, cute_charm,
+            magic_guard, damp, cloud_nine, water_absorb, soundproof
+    }
     public enum Type
         {
-            electric, ground
-        }
+            electric, ground, fire, water, rock, grass, poison, phychic, flying, ice, fighting,
+            fairy, normal, steel
+    }
     
 }
