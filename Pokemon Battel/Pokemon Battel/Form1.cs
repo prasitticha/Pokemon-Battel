@@ -42,6 +42,22 @@ namespace Pokemon_Battel
             this.textBoxSPEED.Text = pokemondex[0].getSPEED().ToString();
 
             this.textBoxEnmyHP.Text = enemydex[0].getHP().ToString();
+
+
+            //if(pokemondex[0].getHP() >= 0)
+            //{
+            //    this.buttonATK.Enabled = false;
+            //}
+            //else
+            //{
+            //    this.buttonATK.Enabled = true;
+            //}
+            this.buttonATK.Enabled = pokemondex[0].getHP() > 0;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            diaplayPokemon();
         }
 
         private void button_switch1_Click(object sender, EventArgs e)
@@ -53,23 +69,24 @@ namespace Pokemon_Battel
             diaplayPokemon();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            diaplayPokemon();
-        }
-
         private void button_switch2_Click(object sender, EventArgs e)
         {
-            Image temp = this.pictureBox1.Image;
-            this.pictureBox1.Image = this.pictureBox3.Image;
-            this.pictureBox3.Image = temp;
+            //Image temp = this.pictureBox1.Image;
+            //this.pictureBox1.Image = this.pictureBox3.Image;
+            //this.pictureBox3.Image = temp;
+
+            Pokemon temp = pokemondex[0];
+            pokemondex[0] = pokemondex[2];
+            pokemondex[2] = temp;
+
+            diaplayPokemon();
         }
 
         private void buttonATK_Click(object sender, EventArgs e)
         {
-            int damage = pokemondex[0].getATK();
-            int newHP = enemydex[0].getHP() - damage;
-            enemydex[0].setHP(newHP);
+            pokemondex[0].attackPokemon(ref enemydex[0]);
+
+            enemydex[0].attackPokemon(ref pokemondex[0]);
 
             diaplayPokemon();
         }

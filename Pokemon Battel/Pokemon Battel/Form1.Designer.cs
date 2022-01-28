@@ -336,6 +336,8 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.labelPokemon);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Pokemon_Battel.Pokemon">
-    <Position X="4" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIQAABAAgAAAEAAFAAAAAAQMAAAAAAE=</HashCode>
-      <FileName>Pokemon.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Pokemon_Battel.Pikachu">
     <Position X="0.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
@@ -52,7 +45,7 @@
   <Class Name="Pokemon_Battel.Form1">
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAIhBAACAQYYACABKAREASAAAAIAAAACRIgABIAAA=</HashCode>
+      <HashCode>EEAAIhBAACAQAZAAIASAQEASAAIAAAAAAKBAgABAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -68,6 +61,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Machamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pokemon_Battel.Pokemon">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAACAIQAABAAgAAAEACFAQAAgARMAEAAAAE=</HashCode>
+      <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Pokemon_Battel.Gender">
@@ -87,14 +87,14 @@
   <Enum Name="Pokemon_Battel.Abilities">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAggAAAAAQAAAAAAAAAAIAAEAA=</HashCode>
+      <HashCode>AAAAACACAAAAAAIAAAAggAQQEAQAAAAAAAACAKAAEAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="Pokemon_Battel.Type">
     <Position X="2.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AABQAAIAAAgBAAQAAAAIAAFAAEAAAAAAJAAAAAAAAAA=</HashCode>
+      <HashCode>AABQAAIAAAgBAAQAAAAIAAlAAEAAAAAAJAAAABAAAAA=</HashCode>
       <FileName>Pokemon.cs</FileName>
     </TypeIdentifier>
   </Enum>
