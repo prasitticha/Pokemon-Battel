@@ -122,6 +122,7 @@
             this.button_switch5.TabIndex = 11;
             this.button_switch5.Text = "switch";
             this.button_switch5.UseVisualStyleBackColor = true;
+            this.button_switch5.Click += new System.EventHandler(this.button_switch5_Click);
             // 
             // button_switch4
             // 
@@ -131,6 +132,7 @@
             this.button_switch4.TabIndex = 10;
             this.button_switch4.Text = "switch";
             this.button_switch4.UseVisualStyleBackColor = true;
+            this.button_switch4.Click += new System.EventHandler(this.button_switch4_Click);
             // 
             // button_switch3
             // 
@@ -140,6 +142,7 @@
             this.button_switch3.TabIndex = 9;
             this.button_switch3.Text = "switch";
             this.button_switch3.UseVisualStyleBackColor = true;
+            this.button_switch3.Click += new System.EventHandler(this.button_switch3_Click);
             // 
             // pictureBox6
             // 

@@ -5,6 +5,9 @@ namespace Pokemon_Battel
         Pikachu pikachu;
         Pidgeot pidgeot;
         Clefairy clefairy;
+        Psyduck psyduck;
+        Poliwag poliwag;
+        Voltorb voltorb;
         Machamp machamp;
         //Array of Pokemon
         Pokemon[] pokemondex;
@@ -18,11 +21,17 @@ namespace Pokemon_Battel
             pikachu = new Pikachu();
             pidgeot = new Pidgeot();
             clefairy = new Clefairy();
+            psyduck = new Psyduck();
+            poliwag = new Poliwag();
+            voltorb = new Voltorb();
             machamp = new Machamp();
 
             pokemondex[0] = pikachu;
             pokemondex[1] = pidgeot;
             pokemondex[2] = clefairy;
+            pokemondex[3] = psyduck;
+            pokemondex[4] = poliwag;
+            pokemondex[5] = voltorb;
 
             enemydex[0] = machamp;
         }
@@ -33,6 +42,9 @@ namespace Pokemon_Battel
             this.labelPokemon.Text = pokemondex[0].getName();
             this.pictureBox2.Image = pokemondex[1].getImage();
             this.pictureBox3.Image = pokemondex[2].getImage();
+            this.pictureBox4.Image = pokemondex[3].getImage();
+            this.pictureBox5.Image = pokemondex[4].getImage();
+            this.pictureBox6.Image = pokemondex[5].getImage();
 
             this.pictureBox7.Image = enemydex[0].getImage();
 
@@ -43,15 +55,6 @@ namespace Pokemon_Battel
 
             this.textBoxEnmyHP.Text = enemydex[0].getHP().ToString();
 
-
-            //if(pokemondex[0].getHP() >= 0)
-            //{
-            //    this.buttonATK.Enabled = false;
-            //}
-            //else
-            //{
-            //    this.buttonATK.Enabled = true;
-            //}
             this.buttonATK.Enabled = pokemondex[0].getHP() > 0;
         }
 
@@ -87,6 +90,33 @@ namespace Pokemon_Battel
             pokemondex[0].attackPokemon(ref enemydex[0]);
 
             enemydex[0].attackPokemon(ref pokemondex[0]);
+
+            diaplayPokemon();
+        }
+
+        private void button_switch3_Click(object sender, EventArgs e)
+        {
+            Pokemon temp = pokemondex[0];
+            pokemondex[0] = pokemondex[3];
+            pokemondex[3] = temp;
+
+            diaplayPokemon();
+        }
+
+        private void button_switch4_Click(object sender, EventArgs e)
+        {
+            Pokemon temp = pokemondex[0];
+            pokemondex[0] = pokemondex[4];
+            pokemondex[4] = temp;
+
+            diaplayPokemon();
+        }
+
+        private void button_switch5_Click(object sender, EventArgs e)
+        {
+            Pokemon temp = pokemondex[0];
+            pokemondex[0] = pokemondex[5];
+            pokemondex[5] = temp;
 
             diaplayPokemon();
         }
